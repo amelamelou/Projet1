@@ -17,10 +17,10 @@ L’objectif est tout d’abord permettre l’enregistrement d’un certain nomb
 
 * [Début du projet] - Le 14 janvier 2015
 * [Fin du projet] - Le 26 mars 2015
-* [Budget] - Le projet étant réalisé par un groupe d’étudiant dans le cadre de l’EC projet informatique 1, le budget est nul.
+* [Budget] - Le projet étant réalisé par un groupe d’étudiants dans le cadre de l’EC projet informatique 1, le budget est nul.
 * [Intervenants projet]	- 	Nous serons cinq à intervenir sur ce projet :
 
-```sh
+```
 Clément Burgaud
 Manel Gharbi
 Shitai Wu
@@ -40,7 +40,7 @@ Le budget étant nul, nous n’avons aucune contrainte d’ordre budgétaire.
 	
 ##### Contraintes de performance
 
-Le rendu doit être complet et facile d’utilisation. Le projet doit être réalisé en JAVA, les documents rendus doivent être en Markdown et les diagrammes en plantuml. Le dépôt accessible depuis le compte GitHub du MIAGE.
+Le rendu doit être complet et facile d’utilisation. Le projet doit être réalisé en JAVA, les documents rendus doivent être en Markdown. Le dépôt accessible depuis le compte GitHub du MIAGE.
 
 ### Spécifications fonctionnelles
 
@@ -64,20 +64,32 @@ Pour utiliser l’application, un client doit créer un profil. Un profil est ca
 
 ###### Enregistrement d’un exercice
     
-Pour l’enregistrement d’un exercice, les informations à donner seront différentes selon que si c’est un exercice de cardio, ou un exercice de renforcement musculaire. Pour les exercices de cardio, nous aurons par exemple le nombre de kilomètre parcouru en combien de temps. Et pour le renforcement musculaire, le nombre de série et le nombre de répétitions par série.
+Pour l’enregistrement d’un exercice, les informations à donner seront différentes selon que si c’est un exercice de cardio, ou un exercice de renforcement musculaire. Pour les exercices de cardio, nous aurons par exemple le nombre de kilomètres parcourus en combien de temps. Et pour le renforcement musculaire, le nombre de série et le nombre de répétitions par série.
 	
-##### Cas d’utilisation (annexe1)
+##### Cas d’utilisation 
 
-Voir le document annexe 1 fournis.
+![alt text][1]
 
-##### Diagramme de classe (annexe2) / Maquettes (annexe3-4)
+##### Diagramme de classe  
 
-Le diagramme de classe et les maquettes fournies en annexe permette de mettre en scene les sénarios suivants : 
+![alt text][2]
+
+##### Maquettes 
+
+Les maquettes permettent de mettre en scène les scénarios suivants : 
 *Page Authentification : Un utilisateur se connecte grace à son mot de passe et son login 
-*Page d'accueil : grace au menu, l'utilisateur peux effectuer un nouvel entrainement, enregistrer un exercice de son choix, consulter ses statistiques, et mettre à jour son profil.
+*Page d'accueil : grâce au menu, l'utilisateur peux effectuer un nouvel entrainement, enregistrer un exercice de son choix, consulter ses statistiques, et mettre à jour son profil.
+
+![alt text][3]
+
+![alt text][4]
 
 ##### Conclusion 
 
-Pour conclure, des éléments seront ajouté au fur et a mesure afin de completer le projet et l'améliorer avec les idées de chacun des membres du groupe.
+Pour conclure, des éléments seront ajoutés au fur et a mesure afin de completer le projet et l'améliorer avec les idées de chacun des membres du groupe.
 
 
+  [1]: https://raw.githubusercontent.com/amelamelou/SportDepot/master/DCU%20MusclerSport%20annexe1.png
+  [2]: https://raw.githubusercontent.com/amelamelou/SportDepot/master/DC%20MusclezSport%20-%20annexe2.png
+  [3]: https://raw.githubusercontent.com/amelamelou/SportDepot/master/annexe3.png
+  [4]: https://raw.githubusercontent.com/amelamelou/SportDepot/master/annexe4.png
